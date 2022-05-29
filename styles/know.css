@@ -1,0 +1,33 @@
+#container-know {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/background-know.png');
+    background-color: #70BABE;
+    align-items: center;
+}
+
+.box-know {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+#know-left {
+    justify-content: end;
+    padding: 70px;
+    font-weight: bold;
+}
+
+#content-know {
+    width: 76%;
+}
+
+#box-image-know{
+    height: 73%;
+    width: 70%;
+    background-image: url('../assets/image-know.png');
+    background-position: center;
+    background-size: cover;
+}

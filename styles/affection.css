@@ -1,0 +1,35 @@
+#container-affection {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    align-items: center;
+    background-image: url('../assets/background-affection.png');
+    background-color: #E78585;
+    justify-content: space-around;
+}
+
+.box-affection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-affection-left {
+    text-align: center;
+    width: 42%;
+    padding-left: 8%;
+    font-size: 1.5vw;
+}
+
+#box-affection-rigth {
+    display: flex;
+    align-items: center;
+    height: 100%; 
+    width: 58%;  
+    text-align: left;    
+    justify-content: flex-start;    
+}
+
+#content-affection {
+    width: 70%;    
+}

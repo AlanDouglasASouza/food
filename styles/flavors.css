@@ -1,0 +1,35 @@
+#conatiner-flavors {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.box-flavors {
+    text-align: center;
+    width: 60%;
+}
+
+#box-flavors-top {
+    width: 100%;
+    padding-top: 5%;
+}
+
+#box-flavors-bottom {
+    display: flex;
+    height: 40%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.box-image-flavors {
+    height: auto;
+    width: 25%;
+}
+
+.img-flavors {
+    width: 100%;
+}

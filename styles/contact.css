@@ -1,0 +1,80 @@
+#container-contact {
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    background-color: #362E26;
+}
+
+.box-contact {
+    display: flex;
+    height: auto;
+}
+
+#box-contact-left {
+    display: flex;
+    width: 45%;
+    text-align: center;
+    justify-content: end;
+    padding: 100px;
+}
+
+#title-contact h1 {
+    font-size: 2.3vw;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.icons-social-media {
+    width: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+#box-contact-rigth {
+    width: 55%;
+    align-self: flex-end;
+    padding-bottom: 15px;  
+}
+
+/* Estilo do formulario */
+
+#box-contact-rigth form {
+    width: 70%;
+    padding: 3px;
+}
+
+.contact-input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 6px;
+    background-color: #514539;
+    border: none;
+    padding-left: 20px;
+}
+
+.contact-input:hover {
+    border: 1px solid white;
+}
+
+#contact-textarea {
+    height: 120px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;    
+    font-size: 12pt;
+}
+
+#bt-contact {
+    width: 100px;
+    height: 40px;
+    background-color: #514539;
+    border: none;
+    color: #ffffff;
+    font-size: 13pt;
+    margin-left: 79.5%;
+}
