@@ -1,0 +1,121 @@
+#container-contact {
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    background-color: #362E26;
+}
+
+.box-contact {
+    display: flex;
+    height: auto;
+}
+
+#box-contact-left {
+    display: flex;
+    width: 45%;
+    text-align: center;
+    justify-content: end;
+    padding: 130px;
+}
+
+#title-contact h1 {
+    font-size: 2.4vw;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+#title-contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.icons-social-media {
+    width: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+#box-contact-rigth {
+    width: 55%;
+    align-self: flex-end;
+    padding-bottom: 15px;  
+}
+
+/* Estilo do formulario */
+
+#box-contact-rigth form {
+    width: 70%;
+    padding: 3px;
+}
+
+.contact-input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 6px;
+    background-color: #514539;
+    border: none;
+    padding-left: 20px;
+}
+
+.contact-input:hover {
+    border: 1px solid white;
+}
+
+#contact-textarea {
+    height: 120px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    resize: none;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;    
+    font-size: 11pt;
+}
+
+#bt-contact {
+    width: 90px;
+    height: 40px;
+    background-image: linear-gradient(to top, #665749 0, #665749 50%, #8B7E73 50%);
+    border: none;
+    color: #ffffff;
+    font-size: 13pt;
+    margin-left: 81.5%;
+    margin-top: 5px;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    
+}
+
+#bt-contact:hover {
+    -webkit-box-shadow: inset 0px 0px 294px 200px rgba(255, 255, 255, 0.38);
+    -moz-box-shadow: inset 0px 0px 294px 200px rgba(255, 255, 255, 0.38);
+    box-shadow: inset 0px 0px 294px 200px rgba(255, 255, 255, 0.38);
+}
+
+@media(max-width: 800px) {
+    #container-contact {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #box-contact-left {
+        padding: 40px;
+        width: 100%;
+        justify-content: center;
+    }
+    #title-contact h1 {
+        line-height: 40px;
+        font-size: 6vw;
+    }
+
+    #box-contact-rigth {
+        width: 100%;
+        justify-content: center;
+    }
+    #bt-contact {
+        margin-left: 0;
+    }
+}

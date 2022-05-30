@@ -1,0 +1,41 @@
+#container-header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    background-color: #362E26;
+}
+
+#box-header {
+    display: flex;
+    height: 100%;
+    width: 55%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#box-header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#reponsive-menu {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    #container-header {
+        height: 80px;
+        position: relative;
+        justify-content: end;
+    }
+    #box-header {
+        display: none;
+    }
+    #reponsive-menu {
+        display: flex;
+        margin-right: 10%;       
+    }
+}

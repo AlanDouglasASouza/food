@@ -1,0 +1,57 @@
+#container-main {
+    display: flex;
+    height: 150vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/background-brigadeiro.jpg');
+    background-position: center -100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    -webkit-box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.55);
+    box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.55);
+}
+
+#title-main {
+    width: auto;
+    height: auto;
+    text-align: center; 
+}
+
+#title-main h1 {    font-family: 'Cookie', cursive;
+    font-size: 15vw;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 200px;
+}
+
+#title-main p {
+    font-size: 23pt;
+    letter-spacing: 10px;
+}
+
+#logo-laco {
+    width: 10vw;
+    margin: 20px;
+}
+
+@media(max-width: 800px) {
+    #container-main {
+        height: 100vw;
+        background-attachment: scroll;
+        background-position: center;
+        background-size: auto;
+    }
+    #title-main h1 {
+        font-size: 25vw;
+        line-height: 130px;
+    }
+    #title-main p {
+        font-size: 5vw;
+    }
+    #logo-laco {
+        width: 25vw;        
+    }
+}
