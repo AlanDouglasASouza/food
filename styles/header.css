@@ -27,7 +27,7 @@
 
 @media(max-width: 800px) {
     #container-header {
-        height: 80px;
+        height: 70px;
         position: relative;
         justify-content: end;
     }
