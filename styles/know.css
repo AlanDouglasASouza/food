@@ -16,12 +16,18 @@
 
 #know-left {
     justify-content: end;
-    padding: 70px;
-    font-weight: bold;
+    padding: 70px;    
 }
 
 #content-know {
     width: 76%;
+    font-size: 13pt;
+}
+
+#content-know h1 {
+    font-size: 2.7vw;
+    line-height: 60px;
+    margin-top: -50px;
 }
 
 #box-image-know{
@@ -30,4 +36,31 @@
     background-image: url('../assets/image-know.png');
     background-position: center;
     background-size: cover;
+}
+
+@media(max-width: 800px) {
+    #container-know {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #know-left {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+    #content-know {
+        width: 80%;
+        padding-bottom: 20px;      
+    }
+    #know-rigth {
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    #box-image-know {
+        height: 80vw;
+        width: 80%;
+       
+    }
+    
 }

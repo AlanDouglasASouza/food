@@ -18,5 +18,24 @@
 
 #box-header a {
     text-decoration: none;
-    color: #ffffff
+    color: #ffffff;
+}
+
+#reponsive-menu {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    #container-header {
+        height: 80px;
+        position: relative;
+        justify-content: end;
+    }
+    #box-header {
+        display: none;
+    }
+    #reponsive-menu {
+        display: flex;
+        margin-right: 10%;       
+    }
 }

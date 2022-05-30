@@ -16,14 +16,20 @@
     width: 45%;
     text-align: center;
     justify-content: end;
-    padding: 100px;
+    padding: 130px;
 }
 
 #title-contact h1 {
-    font-size: 2.3vw;
+    font-size: 2.4vw;
     font-weight: bold;
-    line-height: 30px;
+    letter-spacing: 3px;
+    line-height: 35px;
     margin-bottom: 30px;
+}
+
+#title-contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 .icons-social-media {
@@ -62,19 +68,54 @@
     height: 120px;
     margin-bottom: 0;
     padding-top: 10px;
+    resize: none;
 }
 
 ::-webkit-input-placeholder {
     color: #ffffff;    
-    font-size: 12pt;
+    font-size: 11pt;
 }
 
 #bt-contact {
-    width: 100px;
+    width: 90px;
     height: 40px;
-    background-color: #514539;
+    background-image: linear-gradient(to top, #665749 0, #665749 50%, #8B7E73 50%);
     border: none;
     color: #ffffff;
     font-size: 13pt;
-    margin-left: 79.5%;
+    margin-left: 81.5%;
+    margin-top: 5px;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    
+}
+
+#bt-contact:hover {
+    -webkit-box-shadow: inset 0px 0px 294px 200px rgba(255, 255, 255, 0.38);
+    -moz-box-shadow: inset 0px 0px 294px 200px rgba(255, 255, 255, 0.38);
+    box-shadow: inset 0px 0px 294px 200px rgba(255, 255, 255, 0.38);
+}
+
+@media(max-width: 800px) {
+    #container-contact {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #box-contact-left {
+        padding: 40px;
+        width: 100%;
+        justify-content: center;
+    }
+    #title-contact h1 {
+        line-height: 40px;
+        font-size: 6vw;
+    }
+
+    #box-contact-rigth {
+        width: 100%;
+        justify-content: center;
+    }
+    #bt-contact {
+        margin-left: 0;
+    }
 }

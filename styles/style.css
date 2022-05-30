@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../assets/fonts/fontspring-demo-proximanovacond-regular-webfont.woff');
+}
+
 body {   
     width: 100vw;
-    height: 100vh;
-    /* background-color: #362E26; */
+    height: 100vh;    
     color: #ffffff;
     overflow-x: hidden;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
 }

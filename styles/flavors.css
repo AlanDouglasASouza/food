@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: #362E26;
 }
 
 .box-flavors {
@@ -16,6 +16,12 @@
 #box-flavors-top {
     width: 100%;
     padding-top: 5%;
+    font-size: 1.8vw;
+    letter-spacing: 3px;
+}
+
+#box-flavors-center {
+    font-size: 14pt;
 }
 
 #box-flavors-bottom {
@@ -23,6 +29,7 @@
     height: 40%;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .box-image-flavors {
@@ -31,5 +38,23 @@
 }
 
 .img-flavors {
-    width: 100%;
+    width: 100%;    
+}
+
+@media(max-width: 800px) {
+    #conatiner-flavors {
+        height: auto;
+    }
+
+    #box-flavors-top {
+        font-size: 5vw;
+        margin: 20px;
+    }
+    #box-flavors-center {
+        margin: 20px;
+        width: 80%;
+    }
+    .box-image-flavors {
+        width: 100%;
+    }
 }
