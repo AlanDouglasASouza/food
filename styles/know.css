@@ -52,6 +52,12 @@
         width: 80%;
         padding-bottom: 20px;      
     }
+    #content-know h1 {        
+        margin-top: 0;
+        font-size: 8vw;
+        text-align: center;
+        padding-top: 20px;
+    }
     #know-rigth {
         width: 100%;
         justify-content: center;
@@ -59,8 +65,7 @@
     }
     #box-image-know {
         height: 80vw;
-        width: 80%;
-       
+        width: 80%;     
     }
     
 }
