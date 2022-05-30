@@ -36,7 +36,7 @@
     font-size: 13pt;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1200px) {
     #container-affection {
         height: auto;
         flex-wrap: wrap;

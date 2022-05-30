@@ -37,12 +37,17 @@
     margin: 20px;
 }
 
+@media(max-width: 1360px){
+    #container-main {
+        height: 100vh;       
+        background-position: center;
+        background-size: cover;
+    }
+}
+
 @media(max-width: 800px) {
     #container-main {
-        height: 100vw;
         background-attachment: scroll;
-        background-position: center;
-        background-size: auto;
     }
     #title-main h1 {
         font-size: 25vw;
@@ -53,5 +58,11 @@
     }
     #logo-laco {
         width: 25vw;        
+    }
+}
+
+@media(max-width: 550px) {
+    #container-main {
+        height: 100vw;
     }
 }
