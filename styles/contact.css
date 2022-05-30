@@ -96,7 +96,7 @@
     box-shadow: inset 0px 0px 294px 200px rgba(255, 255, 255, 0.38);
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1200px) {
     #container-contact {
         height: auto;
         flex-wrap: wrap;
@@ -107,7 +107,7 @@
         justify-content: center;
     }
     #title-contact h1 {
-        line-height: 40px;
+        line-height: 60px;
         font-size: 6vw;
     }
 
@@ -117,5 +117,11 @@
     }
     #bt-contact {
         margin-left: 0;
+    }
+}
+
+@media(max-width: 800px) {
+    #title-contact h1 {
+        line-height: 40px;
     }
 }
